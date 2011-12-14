@@ -76,7 +76,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: joao.hornburg@gmail.com
 googleplus_hidden: false
 
 # Pinboard
@@ -92,7 +92,7 @@ disqus_short_name: joaohornburg
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-27682984-1
 
 # Facebook Like
 facebook_like: false
