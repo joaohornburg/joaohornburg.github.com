@@ -22,9 +22,7 @@ Essa semana tudo mudou! Terça-feira tivemos a [estreia da  iTune Store no Brasi
 Voltando para casa
 ------------------
 
-Eu resolvi testar a migração ontem, antes do fim dos cartões brasileiros na argentina. Antes da migração possuía 3 contas: Argentina (principal), Brasil e EUA. Eu quase não utilizava as ultimas, fiz por curiosidade.
-
-A migração em si é bastante simples, fiz no iPhone mesmo. Basta mudar o seu endereço para o Brasil:
+Eu resolvi testar a migração na terça-feira, antes do fim dos cartões brasileiros na argentina. A migração em si é bastante simples, fiz no iPhone mesmo. Basta mudar o seu endereço para o Brasil:
 
 1.  Abra a App Store e na aba destaques (ou categorias) role até embaixo.
 2.  De um toque no seu ID Apple e no pop-up que abrir escolha “Ver ID Apple”
@@ -37,13 +35,25 @@ A migração em si é bastante simples, fiz no iPhone mesmo. Basta mudar o seu e
 Onde estão as minhas apps?
 -------------------------
 
-Após a mudança abra o aplicativo da App Store, vá em updates e depois clique em purchased (respectivamente atualizações e comprado se o aplicativo estiver em português):
+Depois da mudança tive uma surpresa nada boa:
 
 {% img /images/2011-12-14-voltando-da-argentina/nehuma-compra.png 320 480 Nenhuma compra %}
 
-Todas as apps sumiram!
+A lista de apps compradas estava vazia! Elas continuam no iPhone e é possível atualizá-las normalmente. Mas aquela lista vazia me incomodou. E se eu apagar a app, vou poder baixar de novo? Ou vou ter que comprá-la novamente?
 
-Entrei em contato com o suporte da Apple para obter maiores informações. Em menos de 5 minutos recebi um email deles, que explica detalhadamente como funciona a migração:
+Entrei em contato com o suporte da Apple para obter maiores informações. Eles responderam prontamente, detalhando como funciona a migração. Basicamente a explicação é que as App Stores são separadas por país. Compras feitas na App Store da Argentina são válidas apenas para Apple IDs argentinos. Como agora meu Apple ID é brasileiro, as compras argentinas não aparecem. 
+
+Felizmente existe uma integração mínima entre as App Stores: apps não são cobradas duas vezes, independente da App Store em que foram compradas. Por exemplo: se eu comprei o Keynote na App Store argentina, quando eu comprá-lo novamente na App Store brasileira, não vou precisar pagar de novo.
+
+Resolvi testar e realmente funciona! A princípio não há nenhuma indicação de que a app já foi comprada. Aparece o preço dela, e você tem que clicar em “comprar”. Mas depois da compra aparece um pop-up dizendo que não precisa pagar:
+
+{% img /images/2011-12-14-voltando-da-argentina/nao-precisa-pagar.png 320 480 Não precisa pagar %}
+
+Infelizmente, a app continua não aparecendo na lista de apps compradas, mesmo após recomprá-la na App Store brasileira. Definitivamente não é a experiência que esperamos da Apple, mas pelo menos o dinheiro gasto não foi perdido.
+
+Vale lembrar que apenas é possível re-comprar uma app de graça se ela existir na App Store. Isso significa que no Brasil ainda não dá pra baixar os jogos já comprados. Se os rumores sobre a disponibilização de jogos no Brasil se confirmem, isso não vai mais ser problema, mas por enquanto a solução menos arriscada é o bom e velho backup no iTunes.
+
+Abaixo, a resposta da Apple:
 
 >All iTunes Stores are country specific, which does have some implications when you change country. When you change the country in your account, please note the following:
 >
@@ -62,10 +72,3 @@ Entrei em contato com o suporte da Apple para obter maiores informações. Em me
 >Seeing your iTunes Store purchase history and order numbers
 >[http://support.apple.com/kb/HT2727](http://support.apple.com/kb/HT2727)
 
-Ou seja, as App Stores são separadas por país. Minha lista de apps compradas estava vazia porque eu ainda não tinha comprado nada na loja brasileira com essa Apple ID. Mas existe uma integração entre as App Stores. Digamos que eu tenha comprado o Keynote na App Store argentina antes da migração. Depois da migração, se eu comprá-lo novamente na App Store brasileira, não vou precisar pagar de novo.
-
-Resolvi testar e realmente funciona! A princípio não há nenhuma indicação de que a app já foi comprada. Aparece o preço dela, e você tem que clicar em “comprar”. Apenas depois da compra que aparece um pop-up dizendo que não precisa pagar:
-
-{% img /images/2011-12-14-voltando-da-argentina/nao-precisa-pagar.png 320 480 Não precisa pagar %}
-
-Infelizmente, a app continua não aparecendo na lista de apps compradas, mesmo após recomprá-la na App Store brasileira. Ponto negativo para a Apple! O lado bom, é que o dinheiro gasto com apps na conta argentina não é perdido. Isso, claro, assumindo que os jogos estão pra chegar.
