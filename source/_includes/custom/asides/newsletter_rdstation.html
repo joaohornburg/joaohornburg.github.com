@@ -3,9 +3,12 @@
   <form action="https://www.rdstation.com.br/api/1.2/conversions" method="post" id="conversion-form">
     <input type="hidden" name="token_rdstation" value="a78daac7f5d4f04c9df3382bbba141b3">
     <input type="hidden" name="identificador" value="newsletter" />
-    <input type="text" name="email" id="email" class="required email">
+    <input type="text" name="email" id="email" placeholder="email" class="required email" style="width: 180px">
     <input type="submit" value="Assinar">
   </form>
+  <div id="newsletter_subscribe_success" style="display:none">
+    <p>Assinado com sucesso!</p>
+  </div>
 </section>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/jquery.validate/1.9/jquery.validate.min.js"></script>
@@ -13,6 +16,8 @@
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/rd/1.2/rdlps.min.js"></script>
 <script type="text/javascript" charset="utf-8">
   conversionSuccess = function(resp) {
-    $('#conversion-form').html("Assinado com sucesso!");
+    $('#conversion-form').fadeOut(40,  function(){
+      $('#newsletter_subscribe_success').fadeIn();
+    });
   }
 </script>

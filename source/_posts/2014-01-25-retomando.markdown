@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agora é sério"
+title: "Retomando..."
 date: 2014-01-25 00:08:38 -0200
 comments: true
 ---
