@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Agora é sério - João Hornburg</title>
+  <title>Retomando... - João Hornburg</title>
   <meta name="author" content="">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://joaohornburg.github.com/blog/2014/01/25/agora-e-serio">
+  <link rel="canonical" href="http://joaohornburg.github.com/blog/2014/01/25/retomando">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="João Hornburg" type="application/atom+xml">
@@ -79,7 +79,7 @@
   
   <header>
     
-      <h1 class="entry-title">Agora é sério</h1>
+      <h1 class="entry-title">Retomando...</h1>
     
     
       <p class="meta">
@@ -173,7 +173,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/01/25/agora-e-serio/">Agora é sério</a>
+        <a href="/blog/2014/01/25/retomando/">Retomando...</a>
       </li>
     
       <li class="post">
@@ -187,9 +187,12 @@
   <form action="https://www.rdstation.com.br/api/1.2/conversions" method="post" id="conversion-form">
     <input type="hidden" name="token_rdstation" value="a78daac7f5d4f04c9df3382bbba141b3">
     <input type="hidden" name="identificador" value="newsletter" />
-    <input type="text" name="email" id="email" class="required email">
+    <input type="text" name="email" id="email" placeholder="email" class="required email" style="width: 180px">
     <input type="submit" value="Assinar">
   </form>
+  <div id="newsletter_subscribe_success" style="display:none">
+    <p>Assinado com sucesso!</p>
+  </div>
 </section>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/jquery.validate/1.9/jquery.validate.min.js"></script>
@@ -197,7 +200,9 @@
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/rd/1.2/rdlps.min.js"></script>
 <script type="text/javascript" charset="utf-8">
   conversionSuccess = function(resp) {
-    $('#conversion-form').html("Assinado com sucesso!");
+    $('#conversion-form').fadeOut(40,  function(){
+      $('#newsletter_subscribe_success').fadeIn();
+    });
   }
 </script>
 
@@ -253,8 +258,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://joaohornburg.github.com/blog/2014/01/25/agora-e-serio/';
-        var disqus_url = 'http://joaohornburg.github.com/blog/2014/01/25/agora-e-serio/';
+        var disqus_identifier = 'http://joaohornburg.github.com/blog/2014/01/25/retomando/';
+        var disqus_url = 'http://joaohornburg.github.com/blog/2014/01/25/retomando/';
         var disqus_script = 'embed.js';
       
     (function () {

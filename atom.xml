@@ -4,7 +4,7 @@
   <title><![CDATA[João Hornburg]]></title>
   <link href="http://joaohornburg.github.com/atom.xml" rel="self"/>
   <link href="http://joaohornburg.github.com/"/>
-  <updated>2014-01-25T10:13:03-02:00</updated>
+  <updated>2014-01-25T11:07:19-02:00</updated>
   <id>http://joaohornburg.github.com/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Agora é sério]]></title>
-    <link href="http://joaohornburg.github.com/blog/2014/01/25/agora-e-serio/"/>
+    <title type="html"><![CDATA[Retomando...]]></title>
+    <link href="http://joaohornburg.github.com/blog/2014/01/25/retomando/"/>
     <updated>2014-01-25T00:08:38-02:00</updated>
-    <id>http://joaohornburg.github.com/blog/2014/01/25/agora-e-serio</id>
+    <id>http://joaohornburg.github.com/blog/2014/01/25/retomando</id>
     <content type="html"><![CDATA[<p>Criei este blog em 2011, mais como uma forma de testar o Octopress do que com o intuito de fazer posts regularmente. Bem, chegou a hora de retomá-o!</p>
 
 <p>A partir de agora tentarei escrever toda semana. Além disso, o assunto do blog (que era &ldquo;o que eu estou fazendo neste momento&rdquo;) vai passar a ser mais técnico/de processo. Ainda estou decidindo se haverá posts sobre produção musical ou se o foco vai ser em desenvolvimento de software mesmo. O segundo caso é mais provável.</p>

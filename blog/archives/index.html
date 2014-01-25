@@ -9,9 +9,9 @@
   <meta name="author" content="">
 
   
-  <meta name="description" content="Blog Archive 2014 Agora é sério
+  <meta name="description" content="Blog Archive 2014 Retomando&#8230;
 Jan 25 2014 2011 Voltando da Argentina
-Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Agora é sério &hellip;">
+Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Retomando... &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -93,7 +93,7 @@ Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Agora é sério &hellip
 
 <article>
   
-<h1><a href="/blog/2014/01/25/agora-e-serio/">Agora é sério</a></h1>
+<h1><a href="/blog/2014/01/25/retomando/">Retomando&#8230;</a></h1>
 <time datetime="2014-01-25T00:08:38-02:00" pubdate><span class='month'>Jan</span> <span class='day'>25</span> <span class='year'>2014</span></time>
 
 
@@ -130,7 +130,7 @@ Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Agora é sério &hellip
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/01/25/agora-e-serio/">Agora é sério</a>
+        <a href="/blog/2014/01/25/retomando/">Retomando...</a>
       </li>
     
       <li class="post">
@@ -144,9 +144,12 @@ Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Agora é sério &hellip
   <form action="https://www.rdstation.com.br/api/1.2/conversions" method="post" id="conversion-form">
     <input type="hidden" name="token_rdstation" value="a78daac7f5d4f04c9df3382bbba141b3">
     <input type="hidden" name="identificador" value="newsletter" />
-    <input type="text" name="email" id="email" class="required email">
+    <input type="text" name="email" id="email" placeholder="email" class="required email" style="width: 180px">
     <input type="submit" value="Assinar">
   </form>
+  <div id="newsletter_subscribe_success" style="display:none">
+    <p>Assinado com sucesso!</p>
+  </div>
 </section>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/jquery.validate/1.9/jquery.validate.min.js"></script>
@@ -154,7 +157,9 @@ Dec 14 2011 posted in Apple, iPhone, iTunes Recent Posts Agora é sério &hellip
 <script type="text/javascript" src="//rdstation-static.s3.amazonaws.com/js/rd/1.2/rdlps.min.js"></script>
 <script type="text/javascript" charset="utf-8">
   conversionSuccess = function(resp) {
-    $('#conversion-form').html("Assinado com sucesso!");
+    $('#conversion-form').fadeOut(40,  function(){
+      $('#newsletter_subscribe_success').fadeIn();
+    });
   }
 </script>
 
